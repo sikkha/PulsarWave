@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<meta name="description" content="Geopolitics.Λsia Trend Radar: a tool to visualize trend monitoring, inspired by Tech Radar from Zalando to pick the best technologies for new projects">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Geopolitics.Asia Trend  Radar</title>
+<link rel="shortcut icon" href="https://www.geopolitics.asia/favicon.ico">
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
+<script src="radar.js"></script>
+
+<link rel="stylesheet" href="radar.css">
+</head>
+
+<body>
+
+<img src="Geopoliticsasialogo.png" alt="Geopolitics.asia" style="max-width: 20%;">
+
+<svg id="radar"></svg>
+
+<script>
+radar_visualization({
+  svg_id: "radar",
+  width: 1450,
+  height: 1000,
+  colors: {
+    background: "#fff",
+    grid: '#dddde0',
+    inactive: "#ddd"
+  },
+  title: "Geopolitics.Λsia Trend Radar",
+date: "14/06/2023: 18:33",
+
+
+  quadrants: [
+    { name: "Societal and Cultural"},
+    { name: "Innovation and Law" },
+    { name: "Politics/Security" },
+    { name: "Economics" },
+  ],
+  rings: [
+    { name: "ENGAGE", color: "#5ba300" },
+    { name: "MONITOR", color: "#009eb0" },
+    { name: "OBSERVE", color: "#c7ba00" },
+    { name: "ACKNOWLEDGE", color: "#e09b96" }
+  ],
+  print_layout: true,
+  links_in_new_tabs: true,
+  // zoomed_quadrant: 0,
+  //ENTRIES
+  entries: [
+      {"quadrant": 3, "ring": 0, "label": " China Economic Transformation", "link": " https://t.co/ejn3cf2uE1", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 0, "label": " World Oceans Day", "link": " https://t.co/sglqusXtxT", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 0, "label": " Ernaux Book Consumerism", "link": " https://t.co/i017jQHT2Q", "active": true, "moved": 0},
+      {"quadrant": 3, "ring": 0, "label": " Women Heart Attack", "link": " https://t.co/f4YDyPxXMZ", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 1, "label": " Sea Level Rise", "link": " https://t.co/QJOMQJmzcU", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " Illness Research Progress", "link": " https://t.co/tcsir4hn6l", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 1, "label": " US-China Nuclear Stance", "link": " https://t.co/6fpQGcLbkH", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 2, "label": " Pence Court Questions", "link": " https://t.co/wLMqKV1bFO", "active": true, "moved": 0},
+      {"quadrant": 3, "ring": 2, "label": " Western Analysts Soviets", "link": " https://t.co/4qzI3uaN2s", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 3, "label": " Wildlife Targets Missed", "link": " https://t.co/kvbTEnEdTV", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " Fires Above Average", "link": " https://t.co/pY567Kg4Mo", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " Admit Bombing Wrong", "link": " https://t.co/Uaa1GNescz", "active": true, "moved": 0},
+      {"quadrant": 3, "ring": 0, "label": " Hybrid Work Value", "link": " https://t.co/3YkRdGALR6", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 0, "label": " Oldest Wind Instruments", "link": " https://t.co/DAFtDSLouO", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 0, "label": " Generative AI Stereotypes", "link": " https://t.co/ALB2Qi2puB", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 1, "label": " Apple's Vision Pro", "link": " https://t.co/tJDM6h06gI", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " U.S.-China Cold War", "link": " https://t.co/qg4JajbSPz", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 1, "label": " Biden's Rights Focus", "link": " https://t.co/I0vP7YUt6J", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 1, "label": " AUKUS Challenges", "link": " https://t.co/T4Z75eVsNZ", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 2, "label": " Actor's Lifetime Commitment", "link": " https://t.co/898ycNe4yF", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 1, "label": " Apple Privacy Feature", "link": " https://t.co/HTiG44idck", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 3, "label": " Contending with China", "link": " https://t.co/qg4JajbSPz", "active": true, "moved": 0},
+      {"quadrant": 3, "ring": 0, "label": " Netflix Distribution Reliance", "link": " https://t.co/BqP4fj4TWU", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 1, "label": " UK Heatwave Risk", "link": " https://t.co/YMX1xG70XT", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 0, "label": " Astronaut Brain Recovery", "link": " https://t.co/H0nNmGXI2q", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " Ukraine Alliance", "link": " https://t.co/Bcq9ieIay4", "active": true, "moved": 0},
+      {"quadrant": 3, "ring": 1, "label": " French Military Budget", "link": " https://t.co/LXSy2m3p62", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 1, "label": " AI Changing Work", "link": " https://t.co/ltv6Ohgayc", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 0, "label": " Superfund Sites Risk", "link": " https://t.co/UxXzQH0NW2", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 3, "label": " Parenting Sleep Impact", "link": " https://t.co/d76ycBds4A", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 1, "label": " Policing Authorities", "link": " https://t.co/D2FJs10ouu", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 1, "label": " Fringe Legal Theory", "link": " https://t.co/st5ee0wYrT", "active": true, "moved": 0},
+      {"quadrant": 3, "ring": 0, "label": " World Bank Pleads", "link": " https://t.co/eXDDAyRqoj", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 1, "label": " Low-Carb Breakfast", "link": " https://t.co/h0SIwQEPJ7", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 3, "label": " Apple Privacy", "link": " https://t.co/hDoj1TRakx", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 0, "label": " Offerman", "link": " https://t.co/RdDqEQkbmQ", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " Country Accession", "link": " https://t.co/5YNwax7Jbd", "active": true, "moved": 0},
+      {"quadrant": 3, "ring": 0, "label": " China's Economic Rise", "link": " https://t.co/eqYKN04tiu", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 0, "label": " Apple's Product Strategy", "link": " https://t.co/rrP4UNsior", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 2, "label": " House Divided Debts", "link": " https://t.co/hkLJP19Dru", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 1, "label": " AirTag Location Tracking", "link": " https://t.co/zVpQ0A580K", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " Right-Wing Politician & Fires", "link": " https://t.co/jdrP8KeMcI", "active": true, "moved": 0},
+      {"quadrant": 3, "ring": 1, "label": " US-China Trade Relationship", "link": " https://t.co/gj4VI6Gddf", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 1, "label": " Ukraine Military Losses", "link": " https://t.co/NUSTeVrQv6", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 2, "label": " Polarized Marriage & Family", "link": " https://t.co/I2GTERljCM", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 1, "label": " Discovering Black Holes", "link": " https://t.co/9M2U6t5AS5", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 1, "label": " US Global Power Strategy", "link": " https://t.co/rSXHAQJvGt", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 2, "label": " Western Philosophy Path", "link": " https://t.co/mdv5fZbHtF", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 0, "label": " Reanimated Donor Hearts", "link": " https://t.co/XDXQIWFQsU", "active": true, "moved": 0},
+      {"quadrant": 3, "ring": 0, "label": " Airbnb Labor Effects", "link": " https://t.co/DctkJWg5MY", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 2, "label": " Challenging Sea Law", "link": " https://t.co/tE2Scm6YoX", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 0, "label": " Hostility & Cuban Crisis", "link": " https://t.co/0qMzRKVf0D", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 1, "label": " Migrant Surge Fear", "link": " https://t.co/6NwLU9Jau1", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 1, "label": " NYC Rental Law Delay", "link": " https://t.co/7zzooYl6hI", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 3, "label": " Privacy vs Protection", "link": " https://t.co/0HzuKgyb0H", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " Nuclear Atonement", "link": " https://t.co/gmd749LCng", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 0, "label": " Foreign Worker Programs", "link": " https://t.co/aLr8gQjvck", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 1, "label": " Space-Based Solar Power", "link": " https://t.co/Mtxlah4Byx", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 0, "label": " Climate Trial Testimony", "link": " https://t.co/nj1Me4mRhx", "active": true, "moved": 0},
+      {"quadrant": 3, "ring": 0, "label": " AI Revolutionizing Work", "link": " https://t.co/cxYRfaQnvx", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 0, "label": " New NASA Spacesuit", "link": " https://t.co/DH9YKozRF6", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " Iranians Press Advantage", "link": " https://t.co/jIPH24I1LB", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " Capitol Hill Huddle", "link": " https://t.co/ykAiUWvWm6", "active": true, "moved": 0},
+      {"quadrant": 3, "ring": 0, "label": " TSMC $500 Billion Cap", "link": " https://t.co/9s6AcBMy0Z", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 1, "label": " COVID-19 Long-Term Impact", "link": " https://t.co/GaYdxqFkDs", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " New Political Universe", "link": " https://t.co/ODW7Tz71bY", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 0, "label": " AI Development Risks", "link": " https://t.co/Bd6M2f07r9", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " Trump's Miami Appearance", "link": " https://t.co/YtPRTd86or", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 0, "label": " Art Precursor Language", "link": " https://t.co/W9Vb3WyWrX", "active": true, "moved": 0},
+      {"quadrant": 3, "ring": 1, "label": " Quality Gift Guide", "link": " https://t.co/lvv3W9clwP", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " Trump Criminal Probes", "link": " https://t.co/1YFZnHyh6S", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " Election Interference Probes", "link": " https://t.co/0AlNzGSrxB", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 0, "label": " Macular Degeneration", "link": " https://t.co/QdS0aBkYbS", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 0, "label": " Erectile Dysfunction Gel", "link": " https://t.co/mu7oulzAr6", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 1, "label": " Major-Power Conflicts", "link": " https://t.co/eAfUMGfJNM", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 1, "label": " Afghanistan Pilot Issue", "link": " https://t.co/LnqdkygdH9", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 1, "label": " LGBTQ+ Policies Africa", "link": " https://t.co/7GXx31aQ5Q", "active": true, "moved": 0},
+      {"quadrant": 3, "ring": 1, "label": " Banks Control Blockchain", "link": " https://t.co/nS2DB5B2Ls", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 1, "label": " Skin Cancer Awareness", "link": " https://t.co/X4lIxNp8MH", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 0, "label": " Sugar Brain Impact", "link": " https://t.co/Dd6BYhUE37", "active": true, "moved": 0},
+      {"quadrant": 1, "ring": 1, "label": " Top Electric Scooters", "link": " https://t.co/6CreBWm3r8", "active": true, "moved": 0},
+      {"quadrant": 2, "ring": 0, "label": " Ukraine-NATO Issue", "link": " https://t.co/bY7x2c3kAF", "active": true, "moved": 0},
+      {"quadrant": 3, "ring": 3, "label": " Fed Hiking Pause", "link": " https://t.co/WFRJFuXHKY", "active": true, "moved": 0},
+      {"quadrant": 0, "ring": 1, "label": " Melatonin Overdoses", "link": " https://t.co/DTmtZmAkGv", "active": true, "moved": 0},
+    {
+        "quadrant": 3,
+        "ring": 1,
+        "label": "RabbitMQ",
+        "link": "https://engineering.zalando.com/tags/rabbitmq.html",
+        "active": true,
+        "moved": 0
+      }
+
+]
+  //ENTRIES
+});
+
+</script>
+
+<table>
+<tr>
+<td>
+</td></tr>
+</table>
+
+</body>
+</html>
+

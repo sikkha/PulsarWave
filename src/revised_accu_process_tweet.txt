@@ -1,0 +1,85 @@
+3, 0, China Economic Transformation, https://t.co/ejn3cf2uE1, True, 0
+0, 0, World Oceans Day, https://t.co/sglqusXtxT, True, 0
+1, 0, Ernaux Book Consumerism, https://t.co/i017jQHT2Q, True, 0
+3, 0, Women Heart Attack, https://t.co/f4YDyPxXMZ, True, 0
+0, 1, Sea Level Rise, https://t.co/QJOMQJmzcU, True, 0
+2, 0, Illness Research Progress, https://t.co/tcsir4hn6l, True, 0
+2, 1, US-China Nuclear Stance, https://t.co/6fpQGcLbkH, True, 0
+2, 2, Pence Court Questions, https://t.co/wLMqKV1bFO, True, 0
+3, 2, Western Analysts Soviets, https://t.co/4qzI3uaN2s, True, 0
+0, 3, Wildlife Targets Missed, https://t.co/kvbTEnEdTV, True, 0
+2, 0, Fires Above Average, https://t.co/pY567Kg4Mo, True, 0
+2, 0, Admit Bombing Wrong, https://t.co/Uaa1GNescz, True, 0
+3, 0, Hybrid Work Value, https://t.co/3YkRdGALR6, True, 0
+0, 0, Oldest Wind Instruments, https://t.co/DAFtDSLouO, True, 0
+1, 0, Generative AI Stereotypes, https://t.co/ALB2Qi2puB, True, 0
+1, 1, Apple's Vision Pro, https://t.co/tJDM6h06gI, True, 0
+2, 0, U.S.-China Cold War, https://t.co/qg4JajbSPz, True, 0
+2, 1, Biden's Rights Focus, https://t.co/I0vP7YUt6J, True, 0
+2, 1, AUKUS Challenges, https://t.co/T4Z75eVsNZ, True, 0
+0, 2, Actor's Lifetime Commitment, https://t.co/898ycNe4yF, True, 0
+1, 1, Apple Privacy Feature, https://t.co/HTiG44idck, True, 0
+2, 3, Contending with China, https://t.co/qg4JajbSPz, True, 0
+3, 0, Netflix Distribution Reliance, https://t.co/BqP4fj4TWU, True, 0
+0, 1, UK Heatwave Risk, https://t.co/YMX1xG70XT, True, 0
+1, 0, Astronaut Brain Recovery, https://t.co/H0nNmGXI2q, True, 0
+2, 0, Ukraine Alliance, https://t.co/Bcq9ieIay4, True, 0
+3, 1, French Military Budget, https://t.co/LXSy2m3p62, True, 0
+1, 1, AI Changing Work, https://t.co/ltv6Ohgayc, True, 0
+0, 0, Superfund Sites Risk, https://t.co/UxXzQH0NW2, True, 0
+1, 3, Parenting Sleep Impact, https://t.co/d76ycBds4A, True, 0
+1, 1, Policing Authorities, https://t.co/D2FJs10ouu, True, 0
+2, 1, Fringe Legal Theory, https://t.co/st5ee0wYrT, True, 0
+3, 0, World Bank Pleads, https://t.co/eXDDAyRqoj, True, 0
+0, 1, Low-Carb Breakfast, https://t.co/h0SIwQEPJ7, True, 0
+1, 3, Apple Privacy, https://t.co/hDoj1TRakx, True, 0
+0, 0, Offerman, https://t.co/RdDqEQkbmQ, True, 0
+2, 0, Country Accession, https://t.co/5YNwax7Jbd, True, 0
+3, 0, China's Economic Rise, https://t.co/eqYKN04tiu, True, 0
+1, 0, Apple's Product Strategy, https://t.co/rrP4UNsior, True, 0
+2, 2, House Divided Debts, https://t.co/hkLJP19Dru, True, 0
+2, 1, AirTag Location Tracking, https://t.co/zVpQ0A580K, True, 0
+2, 0, Right-Wing Politician & Fires, https://t.co/jdrP8KeMcI, True, 0
+3, 1, US-China Trade Relationship, https://t.co/gj4VI6Gddf, True, 0
+2, 1, Ukraine Military Losses, https://t.co/NUSTeVrQv6, True, 0
+0, 2, Polarized Marriage & Family, https://t.co/I2GTERljCM, True, 0
+0, 1, Discovering Black Holes, https://t.co/9M2U6t5AS5, True, 0
+2, 1, US Global Power Strategy, https://t.co/rSXHAQJvGt, True, 0
+0, 2, Western Philosophy Path, https://t.co/mdv5fZbHtF, True, 0
+1, 0, Reanimated Donor Hearts, https://t.co/XDXQIWFQsU, True, 0
+3, 0, Airbnb Labor Effects, https://t.co/DctkJWg5MY, True, 0
+1, 2, Challenging Sea Law, https://t.co/tE2Scm6YoX, True, 0
+0, 0, Hostility & Cuban Crisis, https://t.co/0qMzRKVf0D, True, 0
+2, 1, Migrant Surge Fear, https://t.co/6NwLU9Jau1, True, 0
+1, 1, NYC Rental Law Delay, https://t.co/7zzooYl6hI, True, 0
+0, 3, Privacy vs Protection, https://t.co/0HzuKgyb0H, True, 0
+2, 0, Nuclear Atonement, https://t.co/gmd749LCng, True, 0
+1, 0, Foreign Worker Programs, https://t.co/aLr8gQjvck, True, 0
+1, 1, Space-Based Solar Power, https://t.co/Mtxlah4Byx, True, 0
+0, 0, Climate Trial Testimony, https://t.co/nj1Me4mRhx, True, 0
+3, 0, AI Revolutionizing Work, https://t.co/cxYRfaQnvx, True, 0
+0, 0, New NASA Spacesuit, https://t.co/DH9YKozRF6, True, 0
+2, 0, Iranians Press Advantage, https://t.co/jIPH24I1LB, True, 0
+2, 0, Capitol Hill Huddle, https://t.co/ykAiUWvWm6, True, 0
+3, 0, TSMC $500 Billion Cap, https://t.co/9s6AcBMy0Z, True, 0
+1, 1, COVID-19 Long-Term Impact, https://t.co/GaYdxqFkDs, True, 0
+2, 0, New Political Universe, https://t.co/ODW7Tz71bY, True, 0
+1, 0, AI Development Risks, https://t.co/Bd6M2f07r9, True, 0
+2, 0, Trump's Miami Appearance, https://t.co/YtPRTd86or, True, 0
+0, 0, Art Precursor Language, https://t.co/W9Vb3WyWrX, True, 0
+3, 1, Quality Gift Guide, https://t.co/lvv3W9clwP, True, 0
+2, 0, Trump Criminal Probes, https://t.co/1YFZnHyh6S, True, 0
+2, 0, Election Interference Probes, https://t.co/0AlNzGSrxB, True, 0
+1, 0, Macular Degeneration, https://t.co/QdS0aBkYbS, True, 0
+1, 0, Erectile Dysfunction Gel, https://t.co/mu7oulzAr6, True, 0
+2, 1, Major-Power Conflicts, https://t.co/eAfUMGfJNM, True, 0
+2, 1, Afghanistan Pilot Issue, https://t.co/LnqdkygdH9, True, 0
+0, 1, LGBTQ+ Policies Africa, https://t.co/7GXx31aQ5Q, True, 0
+3, 1, Banks Control Blockchain, https://t.co/nS2DB5B2Ls, True, 0
+0, 1, Skin Cancer Awareness, https://t.co/X4lIxNp8MH, True, 0
+1, 0, Sugar Brain Impact, https://t.co/Dd6BYhUE37, True, 0
+1, 1, Top Electric Scooters, https://t.co/6CreBWm3r8, True, 0
+2, 0, Ukraine-NATO Issue, https://t.co/bY7x2c3kAF, True, 0
+3, 3, Fed Hiking Pause, https://t.co/WFRJFuXHKY, True, 0
+0, 1, Melatonin Overdoses, https://t.co/DTmtZmAkGv, True, 0
+2, 1, Neutrality Misunderstandings, https://t.co/Af2KQEgRjb, True, 0

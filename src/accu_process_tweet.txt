@@ -1,0 +1,159 @@
+3, 1, Microchips Production, https://t.co/fuDXMCDMG3, True, 0
+
+2, 1, US Global Strategy, https://t.co/G0LqHGTfjm, True, 0
+
+3, 0, Bank Forecasting Review, https://t.co/smUsnwwzKT, True, 0
+
+0, 1, Social Media Health, https://t.co/Ij1xslLo3P, True, 0
+
+1, 3, Polyester Bees, https://t.co/waA7WMfYVN, True, 0
+2, 0, Democratic Ukraine Joining, https://t.co/6UqRpHZ9AL, True, 0
+1, 1, Subway Chokehold Indictment, https://t.co/z28md8HHZv, True, 0
+3, 0, Fed Resumes Tightening, https://t.co/bHSQmrUq9u, True, 0
+0, 1, COVID-19 Taste Recovery, https://t.co/2ktLv6ycv6, True, 0
+3, 3, China's Tax System, https://t.co/gzMjLyKP1f, True, 0
+2, 1, Nuclear Deterrence Shift, https://t.co/1ZuWuRb4zm, True, 0
+3, 1, Huawei, ZTE High-Risk, https://t.co/2UsvPOjkPM, True, 0
+1, 1, Cancer Therapy Breakthrough, https://t.co/WwcSehlldL, True, 0
+3, 1, Rickie Fowler's Score, https://t.co/x5qcnnAgKM, True, 0
+0, 3, Wildcats Reintroduction, https://t.co/hIVTBunn13, True, 0
+3, 1, Inflation & Federal Reserve, https://t.co/IUwKeMGX0p, True, 0
+2, 0, Miami Mayor & Crypto, https://t.co/IoNhgKLLI4, True, 0
+1, 3, TikTok Invests in SEA, https://t.co/fAjVU1vvog, True, 0
+3, 3, Fossil Fuel Lobbyists, https://t.co/db931EroZY, True, 0
+2, 1, U.S. & UNESCO, https://t.co/hQmecFAehf, True, 0
+2, 0, Russia Blocks Tor, https://t.co/3YCELyjdmT, True, 0
+2, 0, Country Defenses Falling, https://t.co/EpntZQIBNv, True, 0
+2, 0, Major War Scenario, https://t.co/mlFAq12IB4, True, 0
+2, 0, US-Japan-Philippines Defense, https://t.co/c9ispNuzbz, True, 0
+0, 1, Facebook Era Consequences, https://t.co/uFdpdOjpV6, True, 0
+0, 0, Arctic Ground Squirrel, https://t.co/cRRaXwg7ja, True, 0
+
+2, 0, Russia-Pakistan Deal, https://t.co/X3OO45TpLR, True, 0
+
+2, 0, Sall's Power Grip, https://t.co/WtNHdzRNAq, True, 0
+
+2, 0, Trump Prosecution Impact, https://t.co/K0hHZaVhh5, True, 0
+
+0, 1, Forest Drought Resilience, https://t.co/lYHkL26NXl, True, 0
+1, 2, Google Fi Value, https://t.co/kOMzx4TCVt, True, 0
+2, 1, Ukraine Counteroffensive, https://t.co/s8BYwVmdiy, True, 0
+3, 0, Environmental Practices, https://t.co/VlxdBEppqT, True, 0
+1, 1, iCET Initiative, https://t.co/5LIsNIkpVq, True, 0
+3, 3, Climate Change Fires, https://t.co/Ecd9SeVWFt, True, 0
+2, 0, Russia-Ukraine Invasion, https://t.co/B8umV2XokB, True, 0
+3, 0, Biden's Economic Revolution, https://t.co/SlfYMarBqI, True, 0
+2, 1, US-Migrants Challenge, https://t.co/BLF95Jxv9C, True, 0
+3, 1, ECB Economic Policy, https://t.co/dUJvVTTyiG, True, 0
+0, 1, Egg Freezing Partners, https://t.co/aAcCzGDEJH, True, 0
+0, 0, Wastewater Infrastructure, https://t.co/Y5K4UDO2uN, True, 0
+
+2, 0, Indian Chinese Correspondents, https://t.co/gn04f4yaam, True, 0
+
+3, 0, Biden's Economic Revolution, https://t.co/SlfYMarBqI, True, 0
+
+3, 0, Chipmaker Investment Germany, https://t.co/MbHgodIrl7, True, 0
+
+1, 1, Higher Education Destruction, https://t.co/tmmu8ISn8b, True, 0
+1, 1, Share Wi-Fi Access, https://t.co/eYxfi4ZLVV, True, 0
+
+3, 0, Fixing Global Finance, https://t.co/ClNJiwruwf, True, 0
+
+2, 0, Insights from Correspondents, https://t.co/gn04f4yaam, True, 0
+
+2, 1, US-China Relations, https://t.co/Iz6EVr8qX6, True, 0
+
+3, 1, MBA Earnings Promise, https://t.co/mGzPMT5voi, True, 0
+2, 1, Water Reuse Importance, https://t.co/Nt5bxx8jQR, True, 0
+2, 0, Asylum Seekers Rerouting, https://t.co/QTuQ8yfHfN, True, 0
+3, 1, Fed's Recession Signals, https://t.co/prm6l7luTG, True, 0
+2, 1, US-India-China Relations, https://t.co/w6ncQyxMyT, True, 0
+0, 2, Amazon Tipping Point, https://t.co/IWyL2dyVIT, True, 0
+0, 0, Accessible Inclusive Games, https://t.co/ywGWVmfePr, True, 0
+
+2, 1, China Russia Diplomacy, https://t.co/gPZX9UxVcq, True, 0
+
+1, 1, Large Wildfires Impact, https://t.co/4RhsWPf07l, True, 0
+
+3, 1, Women Heart Attacks, https://t.co/zRqFxQGmnP, True, 0
+
+2, 0, Snowy 2.0 Delays, https://t.co/Rz6GHtW5C7, True, 0
+0, 1, UFO Astronomer, https://t.co/lwaq5gsajV, True, 0
+
+2, 1, Ukrainian NATO Membership, https://t.co/yy7YaX31D1, True, 0
+
+2, 0, Huawei Denmark 5G, https://t.co/iSoP9etxg2, True, 0
+
+0, 2, British Seaside Pollution, https://t.co/DMBF5kBvcN, True, 0
+
+3, 1, India's Influential Diaspora, https://t.co/vcYWjgHYFL, True, 0
+0, 0, Fashion in Diplomacy, https://t.co/ACkbDMkCTe, True, 0
+
+2, 0, Ukrainian NATO Membership, https://t.co/yy7YaX31D1, True, 0
+
+1, 0, Overfishing Crisis Solution, https://t.co/za28dHTgzp, True, 0
+
+1, 0, FDA Warning Tattoo Ink, https://t.co/BVEpUipfpn, True, 0
+
+0, 1, Amazon's Uncertain Fate, https://t.co/IWyL2dyVIT, True, 0
+1, 1, Travel Adapters, https://t.co/dyUuJ4U8QB, True, 0
+
+2, 0, Dangerous Migration Deterrence, https://t.co/iqH9954EgQ, True, 0
+
+3, 0, Ecuador Violence Increase, https://t.co/IpAnQlMnmO, True, 0
+
+3, 1, Federal Reserve Inflation, https://t.co/hPCF7hB6HW, True, 0
+
+1, 2, EU Electric Car Exports, https://t.co/aLV8WnMKvG, True, 0
+0, 0, Deglobalizing Geopolitics, https://t.co/9QfWRGGUZN, True, 0
+
+2, 0, Migrants Shielded TPS, https://t.co/fhcAYiuect, True, 0
+
+3, 0, Australia Emissions Reduction, https://t.co/e1zDanZSJf, True, 0
+
+0, 1, Hypertension Culprit, https://t.co/d54Y8k5jHy, True, 0
+
+1, 2, AI Generated Music, https://t.co/UdBQ2UTRP2, True, 0
+1, 1, Touchscreen Model, https://t.co/KH3aFClJdY, True, 0
+
+2, 0, US-China Geopolitics, https://t.co/XtRF0hI1Se, True, 0
+
+2, 0, Migrants Shielded, https://t.co/fhcAYiuect, True, 0
+
+0, 2, Cancer Solution Nature, https://t.co/UAvm74P4eH, True, 0
+
+0, 1, Foraging Food Moment, https://t.co/KAAZKcvCo2, True, 0
+0, 0, Psychedelics Treatment Approval, https://t.co/JWr6suCDzm, True, 0
+2, 0, Migrants Shielded Deportation, https://t.co/fhcAYiuect, True, 0
+2, 0, Russia-Ukraine War Durability, https://t.co/JrBkClhDLP, True, 0
+1, 0, COVID-19 Vaccine XBB Variants, https://t.co/nDbJUTXNkV, True, 0
+3, 1, Wealth Tax Climate Crisis, https://t.co/EqkhZXCmPp, True, 0
+0, 0, Surface Ozone Alarm, https://t.co/Cwux2MvYfc, True, 0
+
+0, 0, US Strategy: Ukraine War, https://t.co/R93cde3DuL, True, 0
+
+3, 0, Labour's Green Energy Strategy, https://t.co/IIKU0s84BP, True, 0
+
+3, 0, Draymond Green Free Agency, https://t.co/i8XT7qrYVz, True, 0
+
+0, 1, Seaweed Saving Planet, https://t.co/XOJgCuEdZV, True, 0
+2, 0, Undermining Anti-Iran, https://t.co/2WuKc9YHWF, True, 0
+
+1, 0, AI Public Development, https://t.co/czpMylTdql, True, 0
+
+0, 0, Female Judges Impact, https://t.co/BV2S5nda7F, True, 0
+
+3, 0, Fixing Draughty Homes, https://t.co/C2pTDhGqud, True, 0
+
+1, 1, EV Transition Adoption, https://t.co/g2r48uS6jt, True, 0
+2, 0, EU Maastricht Generation, https://t.co/IDTUN9ysJb, True, 0
+0, 0, Cold War Society, https://t.co/qg4JajbSPz, True, 0
+2, 0, Female Judges Impact, https://t.co/BV2S5nda7F, True, 0
+3, 0, EU Economic Security, https://t.co/ysLAsorgi4, True, 0
+
+1, 3, Planetary Air Mass, https://t.co/9o3wWH2voC, True, 0
+2, 0, Putin's Rhetoric, https://t.co/EWICL03GJ4, True, 0
+2, 0, Law of Sea Breakdown, https://t.co/J36IWRdgEN, True, 0
+0, 0, Female Judges Impact, https://t.co/BV2S5nda7F, True, 0
+0, 0, Sahara Desert Plumes, https://t.co/Zc6T6CNAeN, True, 0
+0, 2, Biodiversity Loss, https://t.co/HJI5yIMv14, True, 0

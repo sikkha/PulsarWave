@@ -28,9 +28,9 @@ $ pip install --upgrade openai
 ```console
 $ ./run_ai_process.sh
 $ ./weekly_pestle_summary.sh 
-$ cd ../tech-radar/docs
+$ cd ../trend-radar/docs
 $ cp ../src/revised_accu_process_tweet.txt ./entry.txt
-$ ./generate_tech_radar.sh
+$ ./generate_trend_radar.sh
 ```
 
 4\. Start Trend Radar

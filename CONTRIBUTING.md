@@ -11,7 +11,7 @@ To contribute to PulsarWave, please follow these general guidelines:
 2. Clone your forked repository to your local development environment:
 
 ```bash
-$ git clone https://github.com/your-username/PulsarWave.git
+$ git clone https://github.com/sikkha/PulsarWave.git
 ```
 
 Create a new branch for your contribution. It's recommended to use a descriptive branch name that reflects the nature of your changes:

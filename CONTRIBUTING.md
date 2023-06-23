@@ -88,7 +88,7 @@ To maintain consistency and readability, we follow a set of coding conventions a
 
 Please review and adhere to these guidelines when making contributions to ensure consistency and maintainability across the project.
 
-If you have any questions or need further clarification, feel free to reach out to us via [email address or other contact information].
+If you have any questions or need further clarification, feel free to reach out to us in contact listed in MAINTAINERS.
 
 
 ## Reporting Issues

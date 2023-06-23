@@ -7,6 +7,30 @@ What sets TMR apart from typical "social listening" tools is its ability to prio
 
 The Trend Monitoring Radar has been modified from Zalando's [public Tech Radar](http://zalando.github.io/tech-radar/)
 
+## License Change
+
+We have made the decision to transition PulsarWave from the GNU General Public License version 3.0 (GPL-3.0) to the Apache License 2.0. We have chosen to change the license from GPL-3.0 to the Apache License 2.0 for the following reasons:
+
+1. **Compatibility with MIT**: By adopting the Apache License, which is compatible with the MIT License, we ensure compatibility and harmonization with other open-source software, such as tech-radar, that is licensed under the MIT License.
+
+2. **Permissive Licensing**: The Apache License 2.0 is a permissive open-source license that grants users the freedom to use, modify, and distribute the software, both commercially and non-commercially. This permissiveness encourages wider adoption, collaboration, and integration of PulsarWave into various projects and ecosystems.
+
+3. **Business Flexibility**: The Apache License enables flexibility for commercial usage of PulsarWave. It allows individuals and organizations to incorporate our software into their commercial products and services without the requirement of open-sourcing their proprietary code. This facilitates commercialization and supports the growth of businesses built around PulsarWave.
+
+4. **No Copyleft Provision**: Unlike the GPL-3.0, the Apache License does not include a copyleft provision. This means that derivative works or modifications based on PulsarWave can be licensed under different terms, including proprietary licenses. This offers more freedom for the community to create derivative works while maintaining compatibility with the Apache License.
+
+## Contribution
+
+PulsarWave is currently maintained by Siam Intelligence Unit Co., Ltd (SIU). We welcome community contributions and value collaboration. Please review the [CONTRIBUTING.md](./CONTRIBUTING.md) file for more information on how to contribute to the project.
+
+## Versioning
+
+Starting from version 1.0, PulsarWave will be licensed under the Apache License 2.0. All previous versions of the software remain under the GPL-3.0.
+
+We believe that this license change enhances compatibility, promotes collaboration, and provides the necessary flexibility for both non-commercial and commercial usage of PulsarWave. We appreciate your support and look forward to your continued involvement in the project.
+
+
+
 **Note please revise your own API_KEY**
 
 ## How to use

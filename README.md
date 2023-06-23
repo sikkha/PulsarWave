@@ -29,6 +29,10 @@ Starting from version 1.0, PulsarWave will be licensed under the Apache License 
 
 We believe that this license change enhances compatibility, promotes collaboration, and provides the necessary flexibility for both non-commercial and commercial usage of PulsarWave. We appreciate your support and look forward to your continued involvement in the project.
 
+## Workflow Diagram
+
+![PulsarWave Diagram Flow](PulsarWave_Diagramflow.png)
+
 
 
 **Note please revise your own API_KEY**

@@ -1,5 +1,10 @@
 # PulsarWave
 
+![Project Logo](PulsarWave_logo.png)
+
+
+## Introduction
+
 
 The Automated Trend Monitoring Radar (TMR), PulsarWave, is an innovative technology that uses advanced Machine Learning (ML) algorithms to sift through, evaluate, and draw insights from a sea of data amassed from news feeds. This sophisticated tool stands on the principle of a posteriori knowledge, creating new insights through the processing and analysis of empirical data. It utilizes Natural Language Processing (NLP), a pivotal subset of artificial intelligence, to parse and understand text-based data, thereby identifying and following emerging trends in the rapidly changing world of digital media.
 

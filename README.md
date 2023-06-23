@@ -7,6 +7,13 @@ What sets TMR apart from typical "social listening" tools is its ability to prio
 
 The Trend Monitoring Radar has been modified from Zalando's [public Tech Radar](http://zalando.github.io/tech-radar/)
 
+## Application
+
+PulsarWave can be versatilely applied in various applications, such as portfolio management. It provides valuable insights for portfolio investment, as demonstrated in the following article at Geopolitics.asia: [Weekly Trend Radar and Portfolio Investment](https://www.geopolitics.asia/post/weekly-trend-radar-and-portfolio-investment). Additionally, PulsarWave can be utilized to generate materials for daily news analysis. It powers AI discussions in a simulated podcast radio format, featuring engaging conversations between female and male hosts. Check out the following video for a glimpse of the discussions: 
+
+[![Video 2](https://img.youtube.com/vi/Fwwn_5m6X4E/0.jpg)](https://www.youtube.com/watch?v=Fwwn_5m6X4E)
+
+
 ## License Change
 
 We have made the decision to transition PulsarWave from the GNU General Public License version 3.0 (GPL-3.0) to the Apache License 2.0. We have chosen to change the license from GPL-3.0 to the Apache License 2.0 for the following reasons:

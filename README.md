@@ -1,6 +1,6 @@
 # PulsarWave
 
-![Project Logo](PulsarWave_logo.png)
+![Project Logo](NewPulsarWave_logo.png)
 
 
 ## Introduction

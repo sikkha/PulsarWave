@@ -27,7 +27,7 @@ Please try and view:
  
 
 Note:
-The [2022 Wikipedia dataset](https://huggingface.co/datasets/wikipedia/viewer/20220301.en/train) was uploaded to the Pinecone vector database following the concept presented in [Langchain Retrieval Augmentation](https://docs.pinecone.io/docs/langchain-retrieval-augmentation). This approach was taken to enrich the knowledge of the GPT model beyond its original cutoff date in 2021.
+The [2022 Wikipedia dataset](https://huggingface.co/datasets/wikipedia/viewer/20220301.en/train) was uploaded to the Pinecone vector database following the concept presented in [Langchain Retrieval Augmentation](https://docs.pinecone.io/docs/langchain-retrieval-augmentation). This approach was taken to enrich the knowledge of the GPT model beyond its original cutoff date in 2021. It has been particularly beneficial for providing updated insights into events such as the Russian invasion of Ukraine, which commenced in February 2022 - a development the original GPT model was not aware of.
 
 ## License Change
 

@@ -61,7 +61,7 @@ We believe that this license change enhances compatibility, promotes collaborati
 
 ## How to use
 
-1\. Export your [OpenAI API key](https://platform.openai.com/account/api-keys) as `OPENAI_API_KEY` and related tweeter API keys in `run_ai_process.sh`, `weekly_pestle_summary.sh` and `call_summarize_web.sh`. Please monitor crontab.txt to observe the sequence of the process.
+1\. Export your [OpenAI API key](https://platform.openai.com/account/api-keys) as `OPENAI_API_KEY` and related tweeter API keys in `run_ai_process.sh`, `weekly_pestle_summary.sh` and `call_summarize_web.sh`. Please observe the `crontab.txt` to revise your own `crontab` for the sequence of the process.
 
 ```console
 $ cd src

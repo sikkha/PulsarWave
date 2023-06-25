@@ -21,9 +21,9 @@ PulsarWave can be versatilely applied in various applications, such as portfolio
 Please try and view:
 - [http://3.88.22.149:3000](http://3.88.22.149:3000) for Amazon Web Service (AWS)
 - [www.geopolitics.io](http://www.geopolitics.io) for Google Cloud Platform (GCP)
- - [Our presentation slide](https://drive.google.com/file/d/1LdCYfFRB2r4L94og8JsgWcceiecW29_W/view?usp=sharing) to see project overview
- - [Our design concept](https://sikkha.medium.com/trend-monitoring-resource-4c14b79a512) for social media resources
- - [Our white paper](https://drive.google.com/file/d/1hKPXY-d2aCuMFf8mmY8R_MkjnoKdjlLc/view) for technical concept
+- [Our presentation slide](https://drive.google.com/file/d/1LdCYfFRB2r4L94og8JsgWcceiecW29_W/view?usp=sharing) to see project overview
+- [Our design concept](https://sikkha.medium.com/trend-monitoring-resource-4c14b79a512) for social media resources
+- [Our white paper](https://drive.google.com/file/d/1hKPXY-d2aCuMFf8mmY8R_MkjnoKdjlLc/view) for technical concept
  
 
 Note:

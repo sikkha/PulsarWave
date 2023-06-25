@@ -18,6 +18,12 @@ PulsarWave can be versatilely applied in various applications, such as portfolio
 
 [![Video 2](https://img.youtube.com/vi/Fwwn_5m6X4E/0.jpg)](https://www.youtube.com/watch?v=Fwwn_5m6X4E)
 
+Please try:
+- [http://3.88.22.149:3000](http://3.88.22.149:3000) for Amazon Web Service (AWS)
+- [www.geopolitics.io](www.geopolitics.io) for Google Cloud Platform (GCP)
+
+Note:
+The [2022 Wikipedia 2022 dataset](https://huggingface.co/datasets/wikipedia/viewer/20220301.en/train) was uploaded Pinecone vector database following the concept presentd in [Langchain Retrieval Augmentation](https://docs.pinecone.io/docs/langchain-retrieval-augmentation). This approach was taken to enrich the knowledge of the GPT model beyond its original cutoff date in 2021.
 
 ## License Change
 

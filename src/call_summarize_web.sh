@@ -7,7 +7,7 @@ export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
 
 # to be automated on process tweet later
 cd $HOME/PulsarWave/src
-python3 $HOME/PulsarWave/src/webcrawling.py https://www.washingtonpost.com/national-security/2023/06/24/us-intelligence-prigozhin-putin/ > web.txt
+python3 $HOME/PulsarWave/src/webcrawling.py https://www.washingtonpost.com/national-security/2023/06/24/us-intelligence-prigozhin-putin/ > $HOME/PulsarWave/src/web.txt
 
 python3 $HOME/PulsarWave/src/showcase_pinecone.py > $HOME/PulsarWave/src/showcase_pinecone_output.txt
 

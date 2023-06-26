@@ -73,7 +73,7 @@ $ export OPENAI_API_KEY=YOUR_API_KEY
 $ pip install --upgrade openai
 ```
 
-3\. Run the script, and check the results. And then from the output file, you can run the tech-radar/docs/generate_tech_radar.sh
+3\. Run the script, and check the results. And then from the output file, you can run the trend-radar/docs/generate_tech_radar.sh to generate the radar.
 
 ```console
 $ ./run_ai_process.sh

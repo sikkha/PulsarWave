@@ -21,8 +21,8 @@
 # For more information see the manual pages of crontab(5) and cron(8)
 # 
 # m h  dom mon dow   command
-15 */6 * * * $HOME/src/run_ai_process.sh
-20 */6 * * * $HOME/src/call_summarize_web.sh
-0 9 * * 3 $HOME/src/weekly_pestle_summary.sh
+15 */6 * * * $HOME/PulsarWave/src/run_ai_process.sh
+20 */6 * * * $HOME/PulsarWave/src/call_summarize_web.sh
+0 9 * * 3 $HOME/PulsarWave/src/weekly_pestle_summary.sh
 
 

@@ -25,7 +25,7 @@ if [[ $tweet_content == *"I don't know"* ]]; then
     python3 $HOME/PulsarWave/src/ai_process_tweet.py 1> /tmp/j1.txt 2> /tmp/j2.txt
 fi
 
-cat /tmp/j1.txt >> $HOME/output2.txt
-cat /tmp/process_tweet.txt >> $HOME/accu_process_tweet.txt
+cat /tmp/j1.txt >> $HOME/PulsarWave/src/output2.txt
+cat /tmp/process_tweet.txt >> $HOME/PulsarWave/src/accu_process_tweet.txt
 python3 $HOME/PulsarWave/src/send_email2.py "Your Processed Tweet" < /tmp/process_tweet.txt
 

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #API Section
-export OPENAI_API_KEY="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"
+export OPENAI_API_KEY="YOUR_OPENAI_API_KEY"
 
 
 cd $HOME/PulsarWave/src

@@ -10,4 +10,4 @@ python3 $HOME/PulsarWave/src/send_email2.py "Weekly Metageopolitical PESTLE" < /
 
 cp $HOME/revised_accu_process_tweet.txt $HOME/PulsarWave/trend-radar/docs/entry.txt
 cd $HOME/PulsarWave/docs
-$HOME/PulsarWave/trend-radar/docs/generate_trendradar.sh
+$HOME/PulsarWave/trend-radar/docs/generate_trend_radar.sh

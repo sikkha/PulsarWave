@@ -1,5 +1,3 @@
-import smtplib
-from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import sys
 import argparse
@@ -18,7 +16,7 @@ parser.add_argument('subject', help='The subject of the email')
 args = parser.parse_args()
 
 # Create the email message
-sender_email = 'youremail@yourdomain.com'
+sender_email = 'yourmail@yourdomain.com'
 receiver_emails = ['mail1@yourdomain.com', 'mail2@yourdomain.com']  # List of recipients
 subject = args.subject  # Use the subject from the command line arguments
 message = sys.stdin.read().strip()

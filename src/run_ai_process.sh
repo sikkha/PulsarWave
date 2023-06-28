@@ -27,5 +27,5 @@ fi
 
 cat /tmp/j1.txt >> $HOME/PulsarWave/src/output2.txt
 cat /tmp/process_tweet.txt >> $HOME/PulsarWave/src/accu_process_tweet.txt
-python3 $HOME/PulsarWave/src/send_email2.py "Your Processed Tweet" < /tmp/process_tweet.txt
+python3 $HOME/PulsarWave/src/send_email2.py "Your Processed Tweet (AWS)" < /tmp/process_tweet.txt
 

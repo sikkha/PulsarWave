@@ -27,7 +27,7 @@ api_key = os.environ["API_KEY"]
 api_secrets = os.environ["API_SECRETS"]
 bearer_token = os.environ["BEARER_TOKEN"]
 access_token = os.environ["ACCESS_TOKEN"]
-acccess_secret = os.environ["ACCESS_SECRET"]
+access_secret = os.environ["ACCESS_SECRET"]
 
 
 #import time

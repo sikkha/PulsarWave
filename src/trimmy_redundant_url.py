@@ -7,7 +7,11 @@ filename = sys.argv[1]
 data_tuples = []
 with open(filename, "r") as file:
     for line in file:
-        data_tuples.append(tuple(line.strip().split(',')))
+        items = line.strip().split(',')
+        if len(items) >= 4:  # Only append tuples with at least 4 elements
+            data_tuples.append(tuple(items))
+
+# original        data_tuples.append(tuple(line.strip().split(',')))
 
 # Create a new list with unique tuples based on URL (the 4th element)
 unique_data_tuples = list(dict((x[3], x) for x in data_tuples).values())

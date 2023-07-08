@@ -1,4 +1,19 @@
 import streamlit as st
+import vertexai
+from vertexai.preview.language_models import ChatModel, InputOutputTextPair
+
+vertexai.init(project="flaskgeopolitics", location="us-central1")
+chat_model = ChatModel.from_pretrained("chat-bison@001")
+parameters = {
+    "temperature": 0.2,
+    "max_output_tokens": 256,
+    "top_p": 0.8,
+    "top_k": 40
+}
+chat = chat_model.start_chat(
+    context="""you\'re a geopolitical expert and ready to provide your analysis to the dead of the user as he is the C-Suit director.""",
+)
+
 
 def count_words(input_text):
     words = input_text.split(' ')
@@ -34,5 +49,7 @@ elif trend_scan_clicked:
 elif talk_clicked:
     output_space.write(f'Robot is talking...')
 elif input_query_clicked:
-    output_space.write(f'Thanks for input your query...')
+    response = chat.send_message(user_input, **parameters)
+    #print(f"Response from Model: {response.text}")
+    output_space.write(f"Response from Model: {response.text}")
 

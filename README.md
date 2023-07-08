@@ -25,6 +25,7 @@ Please try and view:
 - [Our presentation slide](https://drive.google.com/file/d/1LdCYfFRB2r4L94og8JsgWcceiecW29_W/view?usp=sharing) to see project overview
 - [Our design concept](https://sikkha.medium.com/trend-monitoring-resource-4c14b79a512) for social media resources
 - [Our white paper](https://drive.google.com/file/d/1hKPXY-d2aCuMFf8mmY8R_MkjnoKdjlLc/view) for technical concept
+- [See our standardization plan](https://www.geopolitics.asia/post/weekly-trend-monitoring-radar-autonomous-ai-and-standardized-processing) to ensure standard output to all running platforms and possibly all LLM models
  
 
 Note:

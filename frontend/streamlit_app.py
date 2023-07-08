@@ -6,7 +6,7 @@ def count_words(input_text):
     return num_words
 
 # Display the logo at the top of the page
-#st.image("../NewPulsarWave_logo.png")
+#st.image("../main/NewPulsarWave_logo.png")
 
 st.title('Please ask your PulsarWave')
 

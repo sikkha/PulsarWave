@@ -1,6 +1,6 @@
 gcsfs
-vertexai
-streamlt
+google-cloud-aiplatform
+streamlit
 numpy
 pandas
 # Direct pypi install coming soon

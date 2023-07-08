@@ -1,4 +1,7 @@
 gcsfs
 vertexai
+streamlt
+numpy
+pandas
 # Direct pypi install coming soon
 git+https://github.com/streamlit/files-connection

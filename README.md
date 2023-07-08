@@ -19,7 +19,7 @@ PulsarWave can be versatilely applied in various applications, such as portfolio
 [![Video 2](https://img.youtube.com/vi/Fwwn_5m6X4E/0.jpg)](https://www.youtube.com/watch?v=Fwwn_5m6X4E)
 
 Please try and view:
-- [Streamlit Frontend](http://34.27.92.51:8501) for the frontend interaction 
+- [Streamlit Frontend](http://34.27.92.51:8501) for the frontend interaction featuring Google Vertex AI
 - [http://3.88.22.149:3000](http://3.88.22.149:3000) for Amazon Web Service (AWS)
 - [www.geopolitics.io](http://www.geopolitics.io) for Google Cloud Platform (GCP)
 - [Our presentation slide](https://drive.google.com/file/d/1LdCYfFRB2r4L94og8JsgWcceiecW29_W/view?usp=sharing) to see project overview

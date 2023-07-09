@@ -15,7 +15,7 @@ def process_text(user_input, context, maxtoken=100, project="flaskgeopolitics", 
 
     # Make a completion call
     oyyo = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",
+        model="gpt-3.5k-turbo-16k",
         messages=messages
     )
 

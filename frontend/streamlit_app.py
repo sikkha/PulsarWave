@@ -99,7 +99,7 @@ elif trend_scan_clicked:
     for line in lines:
         file_content += line + "\n"
 
-    output_space.markdown(f'The trend scanning, executed at {formatted_date_time} ({timezone_name}). During this period, we identified 4 pieces of important news and 1 item of news with long-term impact, as outlined below: \n{file_content}')
+    output_space.markdown(f'The trend scanning was executed at {formatted_date_time} ({timezone_name}). During this period, we identified 4 pieces of important news and 1 item of news with long-term impact, as outlined below: \n{file_content}')
     
 elif talk_clicked:
     output_space.write(f'PulsarWave is talking...')

@@ -114,7 +114,8 @@ elif trend_scan_clicked:
     for line in lines:
         file_content += line + "\n"
 
-    output_space.markdown(f'Trend scanning at {formatted_date_time} ({timezone_name}) has fallen within the scanning interval of {start_time.strftime("%Y-%m-%d %H:%M:%S")} and {end_time.strftime("%Y-%m-%d %H:%M:%S")}: \n{file_content}')
+    output_space.markdown(f'The trend scanning, executed at {formatted_date_time} ({timezone_name}), fell within the scanning interval from {start_time.strftime("%Y-%m-%d %H:%M:%S")} to {end_time.strftime("%Y-%m-%d %H:%M:%S")}. During this period, we identified 4 pieces of important news and 1 item of news with long-term impact, as outlined below: \n{file_content}')
+    
 elif talk_clicked:
     output_space.write(f'PulsarWave is talking...')
 elif input_query_clicked:

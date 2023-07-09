@@ -23,6 +23,7 @@
 # m h  dom mon dow   command
 15 */6 * * * $HOME/PulsarWave/src/run_ai_process.sh
 20 */6 * * * $HOME/PulsarWave/src/call_summarize_web.sh
+25 */6 * * * $HOME/PulsarWave/src/prepare_data_frontend.sh
 0 9 * * 3 $HOME/PulsarWave/src/weekly_pestle_summary.sh
 
 

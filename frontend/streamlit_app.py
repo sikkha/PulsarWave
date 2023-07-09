@@ -95,26 +95,11 @@ elif trend_scan_clicked:
     # Format the date and time
     formatted_date_time = current_date_time.strftime("%Y-%m-%d %H:%M:%S")
 
-    # Define the scan intervals in 24 hour format
-    scan_intervals = [(0, 6), (6, 12), (12, 18), (18, 24)]
-
-    # Find which interval the current time falls into
-    for start, end in scan_intervals:
-        if start <= current_date_time.hour < end:
-            # Format the start and end times for the output
-            start_time = datetime(current_date_time.year, current_date_time.month, current_date_time.day, start)
-            end_time = datetime(current_date_time.year, current_date_time.month, current_date_time.day, end)
-            break
-    else:
-        # If the time is between 0 and 6, the scan happened on the previous day between 18 and 24
-        start_time = datetime(current_date_time.year, current_date_time.month, current_date_time.day, 18) - timedelta(days=1)
-        end_time = datetime(current_date_time.year, current_date_time.month, current_date_time.day, 0)
-
     file_content = "\n"
     for line in lines:
         file_content += line + "\n"
 
-    output_space.markdown(f'The trend scanning, executed at {formatted_date_time} ({timezone_name}), fell within the scanning interval from {start_time.strftime("%Y-%m-%d %H:%M:%S")} to {end_time.strftime("%Y-%m-%d %H:%M:%S")}. During this period, we identified 4 pieces of important news and 1 item of news with long-term impact, as outlined below: \n{file_content}')
+    output_space.markdown(f'The trend scanning, executed at {formatted_date_time} ({timezone_name}). During this period, we identified 4 pieces of important news and 1 item of news with long-term impact, as outlined below: \n{file_content}')
     
 elif talk_clicked:
     output_space.write(f'PulsarWave is talking...')

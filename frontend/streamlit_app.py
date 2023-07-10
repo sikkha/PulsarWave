@@ -130,7 +130,7 @@ elif talk_clicked:
     output_space.write(f'Pulsarwave is in the process of preparing the audio transcript...')
     file_content = read_file('/tmp/sixhour_scan.txt')
     context = """you\'re a geopolitical expert and your job is to summarize the input from the user in briefing manner within two paragraph. Please print only the summarization."""
-    response = process_text(file_content, context, 250)
+    response = process_text(file_content, context, 400)
     output_space.write(f"Response from Model: \n {response.text}")
     audio_content = synthesize_text(response.text)
     st.audio(audio_content, format='audio/mp3')

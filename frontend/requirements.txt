@@ -1,4 +1,5 @@
 gcsfs
 streamlit
 google-cloud-aiplatform
+google-cloud-texttospeech
 vertexai

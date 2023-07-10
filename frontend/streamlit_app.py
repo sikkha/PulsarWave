@@ -4,6 +4,7 @@ from tzlocal import get_localzone
 import streamlit as st
 import vertexai
 from vertexai.preview.language_models import ChatModel, InputOutputTextPair
+from google.cloud import texttospeech
 
 def process_text(user_input, context, maxtoken, project="flaskgeopolitics", location="us-central1"):
     # initialize
@@ -43,6 +44,29 @@ def read_file(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
     return content
+
+def synthesize_text(text):
+    """Synthesizes speech from the input string of text."""
+    client = texttospeech.TextToSpeechClient()
+
+    input_text = texttospeech.SynthesisInput(text=text)
+
+    voice = texttospeech.VoiceSelectionParams(
+        language_code="en-US",
+        name="en-US-Standard-C",
+        ssml_gender=texttospeech.SsmlVoiceGender.FEMALE,
+    )
+
+    audio_config = texttospeech.AudioConfig(
+        audio_encoding=texttospeech.AudioEncoding.MP3
+    )
+
+    response = client.synthesize_speech(
+        request={"input": input_text, "voice": voice, "audio_config": audio_config}
+    )
+
+    # The response's audio_content is binary.
+    return response.audio_content
 
 
 
@@ -95,21 +119,34 @@ elif trend_scan_clicked:
     # Format the date and time
     formatted_date_time = current_date_time.strftime("%Y-%m-%d %H:%M:%S")
 
+
     file_content = "\n"
     for line in lines:
         file_content += line + "\n"
 
     output_space.markdown(f'The trend scanning was executed at {formatted_date_time} ({timezone_name}). During this period, we identified 4 pieces of important news and 1 item of news with long-term impact, as outlined below: \n{file_content}')
-    
+
 elif talk_clicked:
-    output_space.write(f'PulsarWave is talking...')
+    output_space.write(f'Pulsarwave is in the process of preparing the audio transcript...')
+    file_content = read_file('/tmp/sixhour_scan.txt')
+    context = """you\'re a geopolitical expert and your job is to summarize the input from the user in briefing manner within two paragraph. Please print only the summarization."""
+    response = process_text(file_content, context, 250)
+    output_space.write(f"Response from Model: \n {response.text}")
+    audio_content = synthesize_text(response.text)
+    st.audio(audio_content, format='audio/mp3')
+
+
+
+
 elif input_query_clicked:
+    # Get the current date and time
+    current_date_time = datetime.now()
+    formatted_date_time = current_date_time.strftime("%Y-%m-%d %H:%M:%S")
+
     if user_input:  # check if user_input is not empty
-        context = """you\'re a geopolitical expert and ready to provide your analysis to the user as he is the C-Suit director."""
+        context = """The current time is {current_date_time}. You\'re a geopolitical expert and ready to provide your analysis to the user as he is the C-Suit director."""
         response = process_text(user_input, context, 256)
         output_space.write(f"Response from Model: {response.text}")
     else:  # if user_input is empty
         output_space.write(f"Hello, I am your geopolitical expert assistant. How can I help you today?")
-
-
 

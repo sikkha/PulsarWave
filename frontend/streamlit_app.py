@@ -128,11 +128,38 @@ elif trend_scan_clicked:
 
 elif talk_clicked:
     output_space.write(f'Pulsarwave is in the process of preparing the audio transcript...')
-    file_content = read_file('/tmp/sixhour_scan.txt')
-    context = """you\'re a geopolitical expert and your job is to summarize the input from the user in briefing manner, remember to process every topic, they might be 5 topics, and make the summarization by each subject  within one paragraph. Please print only the summarization."""
-    response = process_text(file_content, context, 400)
-    output_space.write(f"Response from Model: \n {response.text}")
-    audio_content = synthesize_text(response.text)
+    #file_content = read_file('/tmp/sixhour_scan.txt')
+    data = []
+
+    with open("/tmp/sixhour_scan.txt", "r") as f:
+        lines = f.readlines()
+    
+        for line in lines:
+            entry = {}
+            # split the line into components
+            components = line.strip().split(": ", 4)  # We want to split into 5 parts, so use 4 as the maxsplit argument
+
+            # Assign each component to the corresponding field in the entry
+            entry['number'] = components[0]
+            entry['title'] = components[1]
+            entry['description'] = components[2]
+            entry['url'] = components[3]
+
+            # Add the entry to the data list
+            data.append(entry)
+
+    # Now data contains all the entries in the desired format
+    data_to_voice = ""
+    for entry in data:
+         context = """you\'re a geopolitical expert and your job is to summarize the input from the user in briefing manner. Please print only the summarization."""
+         response = process_text(entry['description'], context, 250)
+         data_to_voice += f"{response}\n\n"
+
+         # for  debug
+         #data_to_voice += f"{entry['description']}\n\n"
+
+    output_space.write(f"Response from Model: \n {data_to_voice}")
+    audio_content = synthesize_text(data_to_voice)
     st.audio(audio_content, format='audio/mp3')
 
 

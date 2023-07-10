@@ -12,7 +12,7 @@ with open("/tmp/select_tweet.txt", "r") as file:
 
 for i, line in enumerate(lines):
     subject = line.split("https://")[0].strip().replace("'", "")
-    url = "https://" + line.split("https://")[1].strip().replace("'", "")
+    url = "https://" + line.split("https://")[1].strip().replace("'", "").replace("\"", "")
     command = f'python3 webcrawling.py {url} > /tmp/tmp_keepweb.txt'
     os.system(command)
     content_fromweb = read_file('/tmp/tmp_keepweb.txt')

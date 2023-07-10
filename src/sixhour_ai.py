@@ -66,7 +66,7 @@ for item in data:
     context_caption = """Please make headline caption not more than 3 words."""
     context_summarize = """Please make summarization over the input text."""
 
-    if "browser supports JavaScript" in extracted_data or "JavaScript is disabled in this browser." in extracted_data:
+    if "browser supports JavaScript" in extracted_data or "JavaScript is disabled in this browser." in extracted_data or "404 Client Error" in extracted_data:
         # In this case, the page could not be scraped.
         caption = process_text(subject, context_caption)
         short_description = process_text(subject, context_summarize)

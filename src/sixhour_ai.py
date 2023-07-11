@@ -10,7 +10,7 @@ def process_text(user_input, context, maxtoken=100, project="flaskgeopolitics", 
 
     # Start a chat sequence
     messages = [
-        {"role": "system", "content": "You are a geopolitical expert."},
+        {"role": "system", "content": "You are an Information Analyst."},
         {"role": "system", "content": context},
         {"role": "user", "content": user_input}
     ]

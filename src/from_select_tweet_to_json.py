@@ -10,6 +10,8 @@ data = []
 with open("/tmp/select_tweet.txt", "r") as file:
     lines = file.readlines()
 
+story_number = 0  # Start the story number counter at 0
+
 for i, line in enumerate(lines):
     #for debug
     #print(f'Line: {line}')  # Print the line before splitting
@@ -25,6 +27,8 @@ for i, line in enumerate(lines):
         continue  # Skip this line and move to the next
 
 
+    story_number += 1  # Increment the story number counter
+
 
     subject = line.split("https://")[0].strip().replace("'", "")
     url = "https://" + line.split("https://")[1].strip().replace("'", "").replace("\"", "")
@@ -36,7 +40,7 @@ for i, line in enumerate(lines):
     os.system(command)
     content_fromweb = read_file('/tmp/tmp_keepweb.txt')
     story = {
-        "story_number": i+1,
+        "story_number": story_number,  # Use the story number counter here
         "subject": subject,
         "url": url,
         "extracted_data": content_fromweb
